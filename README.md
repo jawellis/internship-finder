@@ -32,21 +32,24 @@ Copied from: https://rapidapi.com/fantastic-jobs-fantastic-jobs-default/api/inte
 
 - git clone <project>
 
+
 2. Install Dependencies
 
-**Backend:**
+Backend:
 
 - cd server
 - npm install
 
-**Frontend:**
+Frontend:
 
 - cd ../client
 - npm install
 
+
 3. Set Up Environment Variables:
 
 **Create a .env file in /server:**
+
 AZURE_OPENAI_API_KEY=your_azure_openai_key
 
 AZURE_OPENAI_API_VERSION=2024-03-01-preview
@@ -68,6 +71,8 @@ Get Rapid API key at: https://rapidapi.com/fantastic-jobs-fantastic-jobs-default
 npm run dev
 
 Server running on http://localhost:xxxx
+
+
 
 5. Start the Frontend
 
