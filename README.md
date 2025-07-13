@@ -29,33 +29,50 @@ Copied from: https://rapidapi.com/fantastic-jobs-fantastic-jobs-default/api/inte
 ## Local Setup
 
 1. Clone the Repository
-git clone <project>
+
+- git clone <project>
 
 2. Install Dependencies
+
 **Backend:**
-cd server
-npm install
+
+- cd server
+- npm install
 
 **Frontend:**
-cd ../client
-npm install
 
-3. Set Up Environment Variables
+- cd ../client
+- npm install
+
+3. Set Up Environment Variables:
+
 **Create a .env file in /server:**
 AZURE_OPENAI_API_KEY=your_azure_openai_key
+
 AZURE_OPENAI_API_VERSION=2024-03-01-preview
+
 AZURE_OPENAI_API_INSTANCE_NAME=your-instance-name
+
 AZURE_OPENAI_API_DEPLOYMENT_NAME=your-deployment-name
+
 RAPID_API_KEY=your_rapidapi_key
+
 
 Get Rapid API key at: https://rapidapi.com/fantastic-jobs-fantastic-jobs-default/api/internships-api/pricing
 
+
 4. Start the Server
+
 **From /server:**
+
 npm run dev
+
 Server running on http://localhost:xxxx
 
 5. Start the Frontend
+
 **From /client:**
+
 npm start
+
 Local: http://localhost:xxxx
